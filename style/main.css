@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fafafa;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.header{
+    height: 77px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 26px 20px;
+    /*z-index: 100;*/
+    top: 0;
+}
+
+.left_bar {
+    margin-right: auto;
+}
+
+.right_bar {
+    margin-left: auto;
+}
+
+.bar_container{
+    display: flex;
+    width: 1010px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first_img{
+    width: 24px;
+    height: 24px;
+    margin: auto 16px;
+    vertical-align: middle;
+}
+.second_img{
+    width: 115px;
+    height: 29px;
+    margin: auto;
+    border-left: 1px solid black;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+.search_bar{
+    width: 215px;
+    height: 28px;
+    background-color: #fafafa;
+    padding: 7px;
+    left: 45%;
+    bottom: 25px;
+}
+
+.img_container{
+    margin-left: 30px;
+}
+
+.search_bar span{
+    color: #999999;
+    font-size: 14px;
+    width: 39px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin: auto 14px;
+}
+
+
+
+
+.main{
+    /*z-index: 50;*/
+    margin: 0 290px;
+    padding: 100px 0 0;
+    display: flex;
+}
+
+.posting_container{
+    width: 614px;
+    background-color: #ffffff;
+}
+.upper_bar{
+    /*height: 60px;*/
+    padding: 16px;
+    display: flex;
+}
+
+.profile_pic{
+    width: 32px;
+    /*height: 32px;*/
+    border-radius: 50%;
+
+}
+.profile_id{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 4px;
+    font-weight: 600;
+}
+.three_dots{
+    margin-left: auto;
+    width:24px;
+
+}
+
+.img_bar {
+    /*height: 614px;*/
+}
+.img_bar img{
+    width: 100%;
+}
+.reaction_bar{
+    /*height: 40px;*/
+    display: flex;
+    padding: 8px;
+}
+.react_button{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.save_{
+    margin-left: auto;
+}
+
+
+
+.comment_container{
+    /*height: 233px;*/
+
+}
+.number_likes{
+    margin-left: 16px;
+    font-weight: 600;
+}
+.comment_line{
+    margin-left: 15px;
+    display: inline-block;
+
+}
+
+
+
+.comment_bar{
+    /*height: 56px;*/
+    font-family: "Roboto", "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.comment_owner{
+    display: flex;
+    margin-left: 16px;
+}
+.owner_id{
+    font-weight: 600;
+}
+.font_grey{
+    color: darkgrey;
+    font-size: 12px;
+
+}
+.comment_list ol{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 16px;
+    margin-top: 7px;
+}
+.comment_input{
+    /*height:70px;*/
+    padding: 7px 16px 10px 16px;
+    border-top: 1px solid #e6e6e6;
+}
+.comment_input input{
+    border: 0;
+    width: 500px;
+    margin-top: 10px;
+
+}
+.comment_input button{
+    /*margin-left: 25px;*/
+    float: right;
+    margin-top: 10px;
+    color: rgb(56, 151, 240);
+    height: 18px;
+    border: 0;
+    background-color: white;
+    font-weight: 600;
+    opacity: 0.3;
+}
+
+.box{
+    border: 1px solid #e6e6e6;
+}
+.right_side .simple{
+    width: 293px;
+}
+.my_profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.my_profile div {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.my_profile{
+    background-color: #ffffff;
+    display: flex;
+}
+
+.right_side{
+    margin-left: 30px;
+}
+.right_stories{
+    background-color: #ffffff;
+    max-width: 293px;
+    height: 222px;
+    overflow: auto;
+    padding: 4px 16px;
+    margin: 12px 0 0;
+}
+.right_stories2{
+    max-height: 188px;
+    overflow: hidden;
+}
+.stories{
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+}
+.all{
+    margin-top: 6px;
+    font-size: 12px;
+    float: right;
+}
+.another_profile{
+    display: flex;
+    font-size: 14px;
+    max-width: 250px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+.another_profile img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.another_profile div{
+    margin-left: 15px;
+    flex: 1;
+}
+.another_id{
+    font-weight: 600;
+}
+.follow{
+    color: #3897f0;
+    font-weight: 600;
+    margin-top:0;
+}
+
+.support{
+    margin-top: 10px;
+    max-width: 290px;
+}
+.support a{
+    color: #c7c7c7c7;
+    font-size: 11px;
+}
+.support p{
+    color: #c7c7c7;
+    font-size: 11px;
+    margin-top: 20px;
+}
